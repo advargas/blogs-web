@@ -1,5 +1,29 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Blogs Web App
+
+This React App includes screens to:
+
+1. Login
+2. Logout
+3. Create account
+4. Basic home page
+
+It uses Axios to perform requests to the Backend layer. During the authentication process gets the JWT access token and maintains it in the local storage to be passed as the Authorization header for secured endpoints.
+
+Login and create account are public endpoints, logouts requires the JWT authorization token to work.
+
+To run the application:
+
+```
+cd blogs-web
+npm install
+npm start
+```
+
+And open [http://localhost:3000](http://localhost:3000). 
+
+
 ## Available Scripts
 
 In the project directory, you can run:
